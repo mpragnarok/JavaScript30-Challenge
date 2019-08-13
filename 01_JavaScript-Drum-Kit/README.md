@@ -1,16 +1,12 @@
 # 01-JavaScript Drum Kit
 
-> This is a demo built up from the practice in [JavaScript 30]([https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30) without any framework
-
-
+> This is a demo built up from the practice in [JavaScript 30](https://github.com/wesbos/JavaScript30) without any framework.
 
 ![Demo1 image](../images/Demo_01.png)
 
-[demo](url)
+[demo](https://mpragnarok.github.io/JavaScript30-Challenge/01__JavaScript-Drum-Kit/index.html)
 
-Drum kit will represent the sound which relates to the key you've pressed.
-
-
+Drum kit represents the sound which relates to the key you've pressed.
 
 ## Steps
 
@@ -25,8 +21,6 @@ Drum kit will represent the sound which relates to the key you've pressed.
    2. `addEventListener` to `window` with `keydown` event
    
    3. transition end event
-
-
 
 ## Note
 
@@ -56,16 +50,16 @@ can use with `:hover` or `:active` make the property changes
 
 ```css
 div {
-	width: 100px;
-	height: 100px;
-	background: red;
-	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-	transition: width 2s;
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
 }
 
 //
 div:hover {
-	width: 300px;
+    width: 300px;
 }
 ```
 
@@ -98,8 +92,6 @@ transform: scale(1.1)
 > 🔗Reference:
 > 
 > [W3school-transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)
-
-
 
 ##### text-transform
 
@@ -134,8 +126,6 @@ p {background-color: rgba(0, 0, 255, 0.3);}  /* blue with opacity */
 > 🔗Reference:
 > 
 > [W3school-colors](https://www.w3schools.com/css/css3_colors.asp)
-
-
 
 ### JavaScript
 
@@ -233,5 +223,3 @@ function removeTransition(e) {
 > 🔗Reference:
 > 
 > [W3schools-TransitionEvent propertyName Property](https://www.w3schools.com/jsref/event_transition_propertyName.asp)
-
-
