@@ -4,7 +4,7 @@
 
 ![Demo1 image](../images/Demo_01.png)
 
-[demo](https://mpragnarok.github.io/JavaScript30-Challenge/01__JavaScript-Drum-Kit/index.html)
+[demo](https://mpragnarok.github.io/JavaScript30-Challenge/01_JavaScript-Drum-Kit/index.html)
 
 Drum kit represents the sound which relates to the key you've pressed.
 

@@ -4,6 +4,6 @@
 
 ## Table Of Content
 
-1. [JavaScript Drum Kit](https://mpragnarok.github.io/JavaScript30-Challenge/01__JavaScript-Drum-Kit/index.html)
+1. [JavaScript Drum Kit](https://mpragnarok.github.io/JavaScript30-Challenge/01_JavaScript-Drum-Kit/index.html)
 
 
