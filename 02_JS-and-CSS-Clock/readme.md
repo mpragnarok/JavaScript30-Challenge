@@ -2,7 +2,7 @@
 
 > This is a demo built up from the practice in [JavaScript 30](https://github.com/wesbos/JavaScript30) without any framework.
 
-![demo 2](C:\Users\User\Desktop\JavaScript30-Challenge\images\Demo_02.png)
+![demo 2](../images/Demo_02.png)
 
 [demo](https://mpragnarok.github.io/JavaScript30-Challenge/02_JS-and-CSS-Clock/index.html)
 
