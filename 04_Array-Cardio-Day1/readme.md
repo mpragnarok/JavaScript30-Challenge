@@ -4,7 +4,7 @@
 
 [demo](https://mpragnarok.github.io/JavaScript30-Challenge/03_CSS-variables/index.html)
 
-Blur and Spacing a photo with CSS and JS.
+Array methods practicing.
 
 ### Data
 
