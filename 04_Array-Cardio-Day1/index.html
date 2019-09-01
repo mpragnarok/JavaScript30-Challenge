@@ -52,7 +52,8 @@
     })
     console.table(ordered)
     // in arrow and compare function
-    const orderedArrow = inventors.sort((a, b) => a.year - b.year ? 1 : -1)
+    const orderedArrow = inventors.sort((a, b) => a.year - b.year)
+    console.log('order with arrow function:')
     console.table(orderedArrow)
 
 
@@ -70,6 +71,16 @@
       return lastGuy > nextGuy ? -1 : 1
       console.table(oldest)
     })
+    // 5-2. Sort the inventors by years lived - compare function
+    const sortLived = inventors.sort((a, b) => {
+      const aLive = a.passed - a.year
+      const bLive = b.passed - b.year
+      return bLive - aLive
+    })
+    console.table(sortLived)
+
+
+
     // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
     // const category = document.querySelector('.mw-category')
@@ -88,6 +99,13 @@
       return aLast > bLast ? 1 : -1
     })
     console.log(alpha)
+    // Sort the people alphabetically by last name with compare function
+    const alphaCompare = people.sort((a, b) => {
+      const [aLast, aFirst] = a.split(', ')
+      const [bLast, bFirst] = b.split(', ')
+      return aLast - bLast
+    })
+    console.table(alphaCompare)
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
@@ -101,6 +119,7 @@
     }, {})
     console.log(transportation)
   </script>
+  <!-- <script src="./index.js"></script> -->
 </body>
 
 </html>

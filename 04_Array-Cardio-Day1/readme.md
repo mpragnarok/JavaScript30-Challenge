@@ -90,7 +90,7 @@ console.log(map1);
     })
     console.table(ordered)
     // in arrow and compare function
-    const orderedArrow = inventors.sort((a, b)=> a.year - b.year ? 1 : -1)
+    const orderedArrow = inventors.sort((a, b)=> a.year - b.year)
     console.table(orderedArrow)
 
     // 5. Sort the inventors by years lived
@@ -335,7 +335,7 @@ spread will take every item out of something and iterable
 
 
 
-### 8. Reduce Exercise to create  counting for Object item
+### 8. Reduce Exercise to create  counting instances for Object item
 
 ```js
     // 8. Reduce Exercise
@@ -350,4 +350,28 @@ spread will take every item out of something and iterable
     }, {})
     console.log(transportation)
 ```
+
+
+
+```js
+// MDN example
+
+var names = ['Alice', 'Bob', 'Tiff', 'Bruce', 'Alice'];
+
+var countedNames = names.reduce(function (allNames, name) { 
+  if (name in allNames) {
+    allNames[name]++;
+  }
+  else {
+    allNames[name] = 1;
+  }
+  return allNames;
+}, {});
+// countedNames is:
+// { 'Alice': 2, 'Bob': 1, 'Tiff': 1, 'Bruce': 1 }
+```
+
+> 🔗Reference:
+>
+> [MDN-reduce-counting-instance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Counting_instances_of_values_in_an_object)
 
