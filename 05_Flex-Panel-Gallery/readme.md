@@ -108,14 +108,35 @@ transform methods:
 `toggleOpen` will give the reference to the function, it'll find the function and run
 
 ```js
+   const panels = document.querySelectorAll('.panel')
 
-const panels = document.querySelectorAll('.panel')
+    function toggleOpen() {
+      this.classList.toggle('open')
+    }
 
-function toggleOpen() {
-    this.classList.toggle('open')
-}
+    function toggleActive(e) {
+      if (e.propertyName.includes('flex')) {
+        this.classList.toggle('open-active')
+      }
+    }
 
-panels.forEach(panel => panel.addEventListener('click', toggleOpen))
-
+    panels.forEach(panel => panel.addEventListener('click', toggleOpen))
+    panels.forEach(panel => panel.addEventListener('transitioned', toggleActive))
 ```
+
+### e.propertyName
+
+Get the property name related to the transition
+
+```js
+document.getElementById("myDIV").addEventListener("transitionend", myFunction);
+
+function myFunction(event) {
+  this.innerHTML = "Property name is: " + event.propertyName;
+}
+```
+
+> 🔗Reference:
+>
+> [W3Schools-propertyName](https://www.w3schools.com/jsref/event_transition_propertyName.asp)
 
