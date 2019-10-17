@@ -2,7 +2,7 @@
 
 > This is a demo built up from the practice in [JavaScript 30](https://github.com/wesbos/JavaScript30) without any framework.
 
-![demo 2](G:/My Drive/coding/JavaScript30-Challenge/images/Demo_03.png)
+![demo 3](../images/Demo_03.png)
 
 [demo](https://mpragnarok.github.io/JavaScript30-Challenge/03_CSS-variables/index.html)
 

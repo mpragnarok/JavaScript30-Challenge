@@ -2,7 +2,7 @@
 
 > This is a demo built up from the practice in [JavaScript 30](https://github.com/wesbos/JavaScript30) without any framework.
 
-[demo](https://mpragnarok.github.io/JavaScript30-Challenge/03_CSS-variables/index.html)
+[demo](https://mpragnarok.github.io/JavaScript30-Challenge/04_Array-Cardio-Day1/index.html)
 
 Array methods practicing.
 
@@ -374,4 +374,3 @@ var countedNames = names.reduce(function (allNames, name) {
 > 🔗Reference:
 >
 > [MDN-reduce-counting-instance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Counting_instances_of_values_in_an_object)
-
