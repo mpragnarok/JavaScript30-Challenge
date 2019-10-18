@@ -10,4 +10,6 @@
 4. [Array Cardio Day1](https://mpragnarok.github.io/JavaScript30-Challenge/04_Array-Cardio-Day1/index.html)
 5. [Flex Panel Gallery](https://mpragnarok.github.io/JavaScript30-Challenge/05_Flex-Panel-Gallery/index.html)
 6. [Type Ahead](https://mpragnarok.github.io/JavaScript30-Challenge/06_Type-Ahead/index.html)
+7. [Array Cardio Day 2](https://mpragnarok.github.io/JavaScript30-Challenge/07_Array-Cardio-Day2/index.html)
+8. [Fun with HTML5 Canvas](https://mpragnarok.github.io/JavaScript30-Challenge/08_Fun-with-HTML5-Canvas/index.html)
 
