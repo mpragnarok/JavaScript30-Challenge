@@ -1,11 +1,3 @@
----
-tags: [JavaScript30]
-title: 06 - Type Ahead
-created: '2019-10-17T14:53:21.904Z'
-modified: '2019-10-17T14:53:36.334Z'
-
----
-
 # 06 - Type Ahead
 
 > This is a demo built up from the practice in [JavaScript 30](https://github.com/wesbos/JavaScript30) without any framework.
